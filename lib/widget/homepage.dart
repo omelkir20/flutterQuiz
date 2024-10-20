@@ -9,7 +9,7 @@ class Homepage extends StatelessWidget {
       child: Column(
         children: [
           const Padding(
-            padding: EdgeInsets.only(top: 150.0),
+            padding: EdgeInsets.only(top: 200.0),
             child: Text(
               "Mon app flutter",
               style: TextStyle(

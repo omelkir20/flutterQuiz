@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:quiz2/widget/homepage.dart';
-
+import 'package:quiz2/widget/question2.dart';
+import 'package:quiz2/widget/question3.dart';
+import 'package:quiz2/widget/question4.dart';
+import 'package:quiz2/widget/question5.dart';
+import 'package:quiz2/widget/result_page.dart';
 import 'package:quiz2/widget/question.dart';
 
 
@@ -24,7 +28,11 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/question': (context) => const Question(),
-
+        '/question2': (context) => const Question2(),
+        '/question3': (context) => const Question3(),
+        '/question4': (context) => const Question4(),
+        '/question5': (context) => const Question5(),
+        '/result': (context) => const ResultPage(),
         '/home': (context) => const Homepage(),
       },
     );
